@@ -1,0 +1,36 @@
+#contact .card-title {
+  background-color: #569AE8;
+}
+
+#contact .card-text {
+  padding: 3em 2em;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#contact .card-text-details {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact .card-text-details a {
+  color: #569AE8;
+  display: block;
+  padding-top: 1em;
+  -webkit-transition: all 0.5s;
+  -moz-transition:    all 0.5s;
+  -o-transition:      all 0.5s;
+}
+
+#contact .card-text-details a:hover {
+  color: #1976d2;
+}
+
+#contact .card-text-details span {
+  padding-left: 1em;
+}
+
+.tmp {
+  margin-bottom: 2em;
+}

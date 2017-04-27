@@ -1,0 +1,40 @@
+body,
+textarea,
+input {
+  background-color: #dbdbdb;
+  margin: 0;
+  font-family: 'Quattrocento', 'Times New Roman', serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+}
+
+p,
+ul,
+label,
+input,
+textarea,
+button {
+  font-size: 1.2em;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*==========
+SCROLLING
+==========*/
+
+/*body {
+  transition: scroll-top 1s ease-out;
+}*/

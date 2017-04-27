@@ -1,0 +1,75 @@
+.about::before, .about::after,
+.portfolio::before, .portfolio::after,
+.contact::before, .contact::after {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s;
+}
+
+.about::before,
+.portfolio::before,
+.contact::before {
+  text-align: center;
+  font-size: 0.9em;
+  width: auto; height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #3e3e3b;
+  padding: 0 10px;
+  border-radius: .25em;
+  left: 100px;
+}
+
+.about::after,
+.portfolio::after,
+.contact::after {
+  content: '';
+  width: 0; height: 0;
+  border: 9px solid transparent;
+  border-right-color: #3e3e3b;
+  left: 83px;
+}
+
+.about::before {
+  content: 'About';
+  top: 23px;
+}
+
+.portfolio::before {
+  content: 'Portfolio';
+  top: 92px;
+}
+
+.contact::before {
+  content: 'Contact';
+  top: 163px;
+}
+
+.about::after {
+  top: 33px;
+}
+
+.portfolio::after {
+  top: 102px;
+}
+
+.contact::after {
+  top: 173px;
+}
+
+.about:hover::before,
+.portfolio:hover::before,
+.contact:hover::before {
+  opacity: 1;
+  visibility: visible;
+  left: 105px;
+}
+
+.about:hover::after,
+.portfolio:hover::after,
+.contact:hover::after {
+    opacity: 1;
+    visibility: visible;
+    left: 87px;
+}

@@ -1,0 +1,40 @@
+#portfolio .card-title {
+  background-color: #de6a6a; /* RED */
+  /*background-color: #ffb740;*/
+  /*background-color: #7986cb;*/
+}
+
+#portfolio .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#portfolio .project {
+  max-width: 400px;
+  margin: 3em 2em;
+}
+
+#portfolio .project img {
+  max-width: 400px;
+}
+
+#portfolio .project h4 {
+  margin-bottom: 0.5em;
+}
+
+#portfolio .project p,
+#portfolio .project ul {
+  font-size: 1em;
+  margin-top: 0.2em;
+}
+
+#portfolio .project li {
+  display: inline-block;
+  color: #fff;
+  background-color: #de6a6a;
+  font-weight: bold;
+  padding: 8px;
+  margin-right: 0.4em;
+  margin-bottom: 0.4em;
+}
