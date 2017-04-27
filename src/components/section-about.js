@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="content">
         <div className="column column-photo">
-          <img src="http://i1036.photobucket.com/albums/a444/Peter_Krevenets/about-avatar_zpsq1wvjwdr.jpg" alt="Peter Krevenets" />
+          <img src="https://res.cloudinary.com/gurugumawaru/image/upload/v1493300381/about-avatar_wtxbgm.jpg" alt="Peter Krevenets" />
         </div>
         <div className="column column-text">
           <p>My passion is learning and coding is the part I like best.
