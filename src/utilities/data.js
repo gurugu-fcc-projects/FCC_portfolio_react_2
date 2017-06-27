@@ -79,4 +79,29 @@ export const projects = [
     screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1493117490/FCC_Calculator_resized_olupov.png',
     screenshotLabel: 'JavaScript Calculator'
   },
+  {
+    id: 7,
+    title: 'Pomodoro App',
+    description: 'Free Code Camp Advanced Front-End Development Project',
+    goal: `Build a Pomodoro Clock. A user can start a 25 minute pomodoro,
+      and the timer will go off once 25 minutes has elapsed.
+      A user can reset the clock for his/her next pomodoro. A user can
+      customize the length of each pomodoro.`,
+    technologies: ['ES6', 'React', 'Redux'],
+    href: 'https://gurugumawaru.github.io/FCC_pomodoro/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1495016958/FCC_Pomodoro_Clock_resized_v7eext.png',
+    screenshotLabel: 'Pomodoro App'
+  },
+  {
+    id: 8,
+    title: 'TicTacToe Game',
+    description: 'Free Code Camp Advanced Front-End Development Project',
+    goal: `Build a Tic Tac Toe Game. A user can play a game of Tic Tac
+      Toe with the computer. User game will reset as soon as it's over so
+      he/she can play again. User can choose whether to play as X or O.`,
+    technologies: ['ES6', 'React', 'Redux'],
+    href: 'https://gurugumawaru.github.io/FCC_ticTacToe/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1498579433/FCC_TicTacToe_resized_kux8jv.png',
+    screenshotLabel: 'TicTacToe Game'
+  },
 ];
