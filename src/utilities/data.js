@@ -3,6 +3,54 @@ export const skills = ['JavaScript', 'ES6', 'React', 'Redux',
 
 export const projects = [
   {
+    id: 11,
+    title: 'Camper Leaderboard',
+    description: 'Free Code Camp React Project',
+    goal: `User can see a table of the freeCodeCamp campers who've earned the most brownie points in the past 30 days.
+    User can see how many brownie points they've earned in the past 30 days, and how many they've earned total.
+    User can toggle between sorting the list by how many brownie points they've earned in the past 30 days and by how many brownie points they've earned total.`,
+    technologies: ['ES6', 'React', 'Redux', 'SCSS'],
+    href: 'https://gurugumawaru.github.io/FCC_camper_leaderboard/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1501691208/FCC_Camper_Leaderboard_resized_of8hrf.jpg',
+    screenshotLabel: 'Camper Leaderboard'
+  },
+  {
+    id: 10,
+    title: 'Markdown Previewer',
+    description: 'Free Code Camp React Project',
+    goal: `User can type GitHub-flavored Markdown into a text area.
+    User can see a preview of the output of his or her markdown that is updated as he or she types`,
+    technologies: ['ES6', 'React', 'Redux', 'SCSS'],
+    href: 'https://gurugumawaru.github.io/FCC_markdown_previewer/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1500576485/FCC_Markdown_Previewer_resized_og4gon.jpg',
+    screenshotLabel: 'Markdown Previewer'
+  },
+  {
+    id: 9,
+    title: 'Simon Game',
+    description: 'Free Code Camp Advanced Front-End Development Project',
+    goal: `User is presented with a random series of button presses.
+      Each time user inputs a series of button presses correctly,
+      he/she sees the same series of button presses but with an additional step.
+      User hears a sound that corresponds to each button both when
+      the series of button presses plays, and when he/she personally
+      presses a button. If user presses the wrong button,
+      he/she is notified that he/she has done so, and that series of
+      button presses starts again to remind user of the pattern so he/she
+      can try again. User can see how many steps are in the current series
+      of button presses. If user wants to restart, he/she can hit a button
+      to do so, and the game will return to a single step. User can play
+      in strict mode where if he/she gets a button press wrong, it notifies
+      user that he/she has done so, and the game restarts at a new
+      random series of button presses. User can win the game by getting
+      a series of 20 steps correct. User is notified of his/her victory,
+      then the game starts over.`,
+    technologies: ['ES6', 'React', 'Redux'],
+    href: 'https://gurugumawaru.github.io/FCC_Simon_Game/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1499783455/FCC_Simon_Game_resized_gezwj9.jpg',
+    screenshotLabel: 'Simon Game'
+  },
+  {
     id: 8,
     title: 'TicTacToe Game',
     description: 'Free Code Camp Advanced Front-End Development Project',
