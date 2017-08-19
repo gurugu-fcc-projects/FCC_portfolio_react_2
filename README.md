@@ -19,4 +19,4 @@ I suppose it's OK as a first portfolio project, but from time to time I think of
 - [ ] freecodecamp challenge: [https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage](https://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage)
 
 ## Video Walkthrough
-![](https://github.com/gurugumawaru/FCC_camper_leaderboard/blob/master/FCC_Portfolio.gif)
+![](https://github.com/gurugumawaru/FCC_portfolio_react_2/blob/master/FCC_Portfolio.gif)
