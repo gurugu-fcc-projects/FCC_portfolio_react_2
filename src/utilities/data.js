@@ -3,6 +3,20 @@ export const skills = ['JavaScript', 'ES6', 'React', 'Redux',
 
 export const projects = [
   {
+    id: 12,
+    title: 'Recipe Box',
+    description: 'Free Code Camp React Project',
+    goal: `User can create recipes that have names and ingredients.
+    User can see an index view where the names of all the recipes are visible.
+    User can click into any of those recipes to view it.
+    User can edit these recipes. User can delete these recipes.
+    All new recipes user adds are saved in browser's local storage. If user refreshes the page, these recipes will still be there.`,
+    technologies: ['ES6', 'React', 'Redux', 'Material-UI'],
+    href: 'https://gurugumawaru.github.io/FCC_recipe_box/',
+    screenshotLink: 'https://res.cloudinary.com/gurugumawaru/image/upload/v1503127487/FCC_RecipeBox_resized_laqlnu.png',
+    screenshotLabel: 'Recipe Box'
+  },
+  {
     id: 11,
     title: 'Camper Leaderboard',
     description: 'Free Code Camp React Project',
