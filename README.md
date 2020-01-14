@@ -11,7 +11,7 @@ This was a huge project for me at the time, and I was heavily influenced by the 
 
 ## Links
 - [ ] this project at codepen: [https://codepen.io/GuRuGu/full/xVjXNp/](https://codepen.io/GuRuGu/full/xVjXNp/)
-- [ ] this project at gh-pages: [https://gurugumawaru.github.io/FCC_portfolio_react_2/](https://gurugumawaru.github.io/FCC_portfolio_react_2/)
+- [ ] this project at gh-pages: [https://gurugu-fcc-projects.github.io/FCC_portfolio_react_2/](https://gurugu-fcc-projects.github.io/FCC_portfolio_react_2/)
 - [ ] freecodecamp challenge: [https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage)
 
 ## Video Walkthrough
